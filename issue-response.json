@@ -1,0 +1,2932 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10010.requestTypePractice",
+  "id": "13497",
+  "self": "https://sample.atlassian.net/rest/api/3/issue/13497",
+  "key": "SAMPLE-3490",
+  "fields": {
+    "statuscategorychangedate": "2023-07-19T11:15:09.444+0300",
+    "issuetype": {
+      "self": "https://sample.atlassian.net/rest/api/3/issuetype/10001",
+      "id": "10001",
+      "description": "Functionality or a feature expressed as a user goal.",
+      "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+      "name": "Story",
+      "subtask": false,
+      "avatarId": 10315,
+      "hierarchyLevel": 0
+    },
+    "timespent": null,
+    "customfield_10030": null,
+    "project": {
+      "self": "https://sample.atlassian.net/rest/api/3/project/10000",
+      "id": "10000",
+      "key": "SAMPLE",
+      "name": "Sample",
+      "projectTypeKey": "software",
+      "simplified": false,
+      "avatarUrls": {
+        "48x48": "https://sample.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10551",
+        "24x24": "https://sample.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10551?size=small",
+        "16x16": "https://sample.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10551?size=xsmall",
+        "32x32": "https://sample.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10551?size=medium"
+      }
+    },
+    "customfield_10075": null,
+    "customfield_10031": null,
+    "customfield_10032": null,
+    "customfield_10076": null,
+    "customfield_10033": null,
+    "fixVersions": [],
+    "aggregatetimespent": null,
+    "customfield_10034": null,
+    "resolution": {
+      "self": "https://sample.atlassian.net/rest/api/3/resolution/10000",
+      "id": "10000",
+      "description": "Work has been completed on this issue.",
+      "name": "Done"
+    },
+    "customfield_10029": [],
+    "resolutiondate": "2023-07-19T11:15:09.440+0300",
+    "workratio": -1,
+    "lastViewed": "2023-08-27T09:20:41.382+0300",
+    "watches": {
+      "self": "https://sample.atlassian.net/rest/api/3/issue/SAMPLE-3490/watchers",
+      "watchCount": 2,
+      "isWatching": false
+    },
+    "issuerestriction": {
+      "issuerestrictions": {},
+      "shouldDisplay": false
+    },
+    "created": "2023-04-22T21:53:29.064+0300",
+    "customfield_10020": [
+      {
+        "id": 19,
+        "name": "Sprint 17",
+        "state": "closed",
+        "boardId": 1,
+        "goal": "",
+        "startDate": "2023-05-28T05:00:34.587Z",
+        "endDate": "2023-06-15T20:59:00.000Z",
+        "completeDate": "2023-06-18T08:44:42.053Z"
+      },
+      {
+        "id": 20,
+        "name": "Sprint 18",
+        "state": "closed",
+        "boardId": 1,
+        "goal": "",
+        "startDate": "2023-06-18T05:00:09.219Z",
+        "endDate": "2023-07-06T20:42:00.000Z",
+        "completeDate": "2023-07-09T10:03:12.040Z"
+      },
+      {
+        "id": 21,
+        "name": "Sprint 19",
+        "state": "closed",
+        "boardId": 1,
+        "goal": "",
+        "startDate": "2023-07-09T05:03:43.738Z",
+        "endDate": "2023-07-27T20:59:00.000Z",
+        "completeDate": "2023-07-30T14:02:25.962Z"
+      }
+    ],
+    "customfield_10021": null,
+    "customfield_10022": null,
+    "priority": {
+      "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+      "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+      "name": "No Priority",
+      "id": "10000"
+    },
+    "customfield_10023": null,
+    "customfield_10024": null,
+    "customfield_10025": "10000_*:*_1_*:*_7564900426_*|*_10001_*:*_1_*:*_0",
+    "labels": [],
+    "customfield_10026": 17.5,
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "PLUGIN_LICENSE_ERROR",
+        "message": "The Parent Link is only available to Jira Premium users."
+      }
+    },
+    "customfield_10019": "0|hzzzxk:lzzzzwx",
+    "timeestimate": null,
+    "aggregatetimeoriginalestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": {
+      "self": "https://sample.atlassian.net/rest/api/3/user?accountId=6299f5ecc3dffc0068f6eb53",
+      "accountId": "6299f5ecc3dffc0068f6eb53",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6299f5ecc3dffc0068f6eb53/4fdb003a-9ce1-484e-8f94-49e0cf228dfa/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6299f5ecc3dffc0068f6eb53/4fdb003a-9ce1-484e-8f94-49e0cf228dfa/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6299f5ecc3dffc0068f6eb53/4fdb003a-9ce1-484e-8f94-49e0cf228dfa/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6299f5ecc3dffc0068f6eb53/4fdb003a-9ce1-484e-8f94-49e0cf228dfa/32"
+      },
+      "displayName": "Oleg Mostepan",
+      "active": true,
+      "timeZone": "Asia/Jerusalem",
+      "accountType": "atlassian"
+    },
+    "updated": "2023-07-19T11:15:16.865+0300",
+    "status": {
+      "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+      "description": "",
+      "iconUrl": "https://sample.atlassian.net/",
+      "name": "Done",
+      "id": "10001",
+      "statusCategory": {
+        "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      }
+    },
+    "components": [],
+    "customfield_10050": null,
+    "timeoriginalestimate": null,
+    "customfield_10051": null,
+    "customfield_10052": null,
+    "customfield_10053": null,
+    "description": {
+      "version": 1,
+      "type": "doc",
+      "content": [
+        {
+          "type": "heading",
+          "attrs": {
+            "level": 1
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Background (Why)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Current state",
+              "marks": [
+                {
+                  "type": "underline"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " - Today when users land in Sample, they are directed to the default page that the admin defined. The default page can be any catalog page, devportal setup, and self-service hub."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Problem",
+              "marks": [
+                {
+                  "type": "underline"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " - "
+            }
+          ]
+        },
+        {
+          "type": "orderedList",
+          "attrs": {
+            "order": 1
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "No centralized place in Sample provides the user with the relevant information when he first logs into Sample"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The current option of a default page is not generic enough. For example, the user doesn’t want to land on the “self-service hub” or the “microservices” page every time. These pages contain very specific information and are not useful all the time"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "In this story, we will create a new "
+            },
+            {
+              "type": "text",
+              "text": "home page ",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "for all Sample users. The goal of the homepage is to provide users with all the information they need to get orientation around Sample. This will help them to answer questions like:"
+            }
+          ]
+        },
+        {
+          "type": "orderedList",
+          "attrs": {
+            "order": 1
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Where am I?"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "What can I do here?"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "How do I get back to a place in Sample, I was in the last time?"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "What is the state of the catalog items that are under my responsibility?"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "And more"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": {
+            "level": 1
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Requirements (How)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Design - "
+            },
+            {
+              "type": "inlineCard",
+              "attrs": {
+                "url": "https://www.example.com/file/CZNxHKSNr7MtKpfG5hrHrD/Handoff?type=design&node-id=15272-470266"
+              }
+            },
+            {
+              "type": "text",
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Widgets on the homepage"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Notes",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "orderedList",
+          "attrs": {
+            "order": 1
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "in the future, we would like the homepage to be dynamic and controlled by the user. This means the user will be able to move and add new widgets to the screen"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "To make the transition from a fixed homepage to a dynamic one, we will create each element on the homepage as a "
+                    },
+                    {
+                      "type": "text",
+                      "text": "widget",
+                      "marks": [
+                        {
+                          "type": "underline"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "orderedList",
+                  "attrs": {
+                    "order": 1
+                  },
+                  "content": [
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "This is similar to the “Dashboard” tab on the specific entity page"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "The widgets will have a fixed height (according to specific cases), and their location will be able to be changed (only via the API for now). Similar to the widgets in the specific entity page "
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Homepage Widgets",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "orderedList",
+          "attrs": {
+            "order": 1
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Inside the homepage, we will display the following widgets"
+                    }
+                  ]
+                },
+                {
+                  "type": "orderedList",
+                  "attrs": {
+                    "order": 1
+                  },
+                  "content": [
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Recently viewed entities",
+                              "marks": [
+                                {
+                                  "type": "underline"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": " - last 10 entities that the user has visited in their specific entity page"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "orderedList",
+                          "attrs": {
+                            "order": 1
+                          },
+                          "content": [
+                            {
+                              "type": "listItem",
+                              "content": [
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "A click on an entity will direct the user to the specific entity page"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "Recently performed actions",
+                              "marks": [
+                                {
+                                  "type": "underline"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": " - the last 10 actions that the user executed "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "orderedList",
+                          "attrs": {
+                            "order": 1
+                          },
+                          "content": [
+                            {
+                              "type": "listItem",
+                              "content": [
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "A click on the action will open the action modal, the user will be able to execute the action from the homepage"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "My entities",
+                              "marks": [
+                                {
+                                  "type": "underline"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": " - a summary of the entities that belong to the user (blueprint title and the number of entities)"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "orderedList",
+                          "attrs": {
+                            "order": 1
+                          },
+                          "content": [
+                            {
+                              "type": "listItem",
+                              "content": [
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Belong to the user = entities that belong to one of the user’s teams, or entities that have the user in a “user” property"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "orderedList",
+                                  "attrs": {
+                                    "order": 1
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "listItem",
+                                      "content": [
+                                        {
+                                          "type": "paragraph",
+                                          "content": [
+                                            {
+                                              "type": "text",
+                                              "text": "This logic is already implemented inside the “related entities” section of the specific user page (talk with matan levi)"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "listItem",
+                              "content": [
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "When clicking on a blueprint, the user will be directed to its specific user page, when the “related entities” section will be focused on the relevant blueprint tab"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "README",
+                              "marks": [
+                                {
+                                  "type": "underline"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "text": " - a widget contains markdown document with any content the user would like to add"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "orderedList",
+                          "attrs": {
+                            "order": 1
+                          },
+                          "content": [
+                            {
+                              "type": "listItem",
+                              "content": [
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Permissions - only admins will  see the “add readme” button"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "listItem",
+                              "content": [
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "When the readme is added to the homepage, the “Add readme” button will be disabled with a tooltip"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "listItem",
+                              "content": [
+                                {
+                                  "type": "paragraph",
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "Additional capabilities of the widget:"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "orderedList",
+                                  "attrs": {
+                                    "order": 1
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "listItem",
+                                      "content": [
+                                        {
+                                          "type": "paragraph",
+                                          "content": [
+                                            {
+                                              "type": "text",
+                                              "text": "Expand button - opens the markdown document in a large modal"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "orderedList",
+                                          "attrs": {
+                                            "order": 1
+                                          },
+                                          "content": [
+                                            {
+                                              "type": "listItem",
+                                              "content": [
+                                                {
+                                                  "type": "paragraph",
+                                                  "content": [
+                                                    {
+                                                      "type": "text",
+                                                      "text": "This capability is optional. Depends on the required effort"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "listItem",
+                                      "content": [
+                                        {
+                                          "type": "paragraph",
+                                          "content": [
+                                            {
+                                              "type": "text",
+                                              "text": "Edit/delete (3 dots menu button) - these button will displayed on the widget near the “Expand” "
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "listItem",
+                                      "content": [
+                                        {
+                                          "type": "paragraph",
+                                          "content": [
+                                            {
+                                              "type": "text",
+                                              "text": "Permissions - only admins will see these buttons on the widgets"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The only widget that can be added or removed is the “README”"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "When the “README” widget is not added, the height of the other widgets will expand accordingly (see design)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Empy state - when there is no content inside the widget we will display an empty state for them (see design)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Backend Changes"
+            }
+          ]
+        },
+        {
+          "type": "orderedList",
+          "attrs": {
+            "order": 1
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "We will create a new route to add and update the “README” widget"
+                    }
+                  ]
+                },
+                {
+                  "type": "orderedList",
+                  "attrs": {
+                    "order": 1
+                  },
+                  "content": [
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "In the future, the homepage will be more dynamic, and the user can control all widgets, so we need to think about this when creating the new route"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "This task is optional. We need to see how much it will add to the effort"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "We will remove the “Default page” capability entirely. This means that - "
+                    }
+                  ]
+                },
+                {
+                  "type": "orderedList",
+                  "attrs": {
+                    "order": 1
+                  },
+                  "content": [
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "We will remove the ability to configure the default page via the API"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "The default page of all organizations will be the “Home page”"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "This is true for new and existing organizations"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": []
+        },
+        {
+          "type": "heading",
+          "attrs": {
+            "level": 1
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Segment Events"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "attrs": {
+            "isNumberColumnEnabled": false,
+            "layout": "default",
+            "localId": "fef82fc3-26c4-4a74-b9ce-ced0960847a9"
+          },
+          "content": [
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableHeader",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Event Name"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableHeader",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Description (when to fire)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableHeader",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Properties"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableHeader",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Options"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableHeader",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Example"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Add Widget - Click"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Widget Name"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Readme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Add Widget - Close"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Widget Name"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Readme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Action"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "close button / exit button / click outside popup / click escape on keyboard"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Add Widget - Save"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Widget Name"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Readme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Edit Widget - Click"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Widget Name"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Readme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Edit Widget - Close"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Widget Name"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Readme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Action"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "close button / exit button / click outside popup / click escape on keyboard"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Edit Widget - Save"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Widget Name"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Readme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Delete Widget - Click"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Widget Name"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Readme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Delete Widget - Close"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Widget Name"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Readme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Action"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "close button / exit button / click outside popup / click escape on keyboard"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Delete Widget - Save"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Widget Name"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Readme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Expand Widget - Click"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Widget Name"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Readme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Expand Widget - Close"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Widget Name"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Readme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Action"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "close button / exit button / click outside popup / click escape on keyboard"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Recently Viewed Entities Click"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Blueprint Title"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Recently Used Actions Click"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Action Title"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Home - Owned Entities Click"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Blueprint Title"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "tableCell",
+                  "attrs": {},
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "customfield_10010": null,
+    "customfield_10054": null,
+    "customfield_10055": null,
+    "customfield_10056": null,
+    "customfield_10057": null,
+    "customfield_10014": null,
+    "customfield_10058": null,
+    "customfield_10015": null,
+    "timetracking": {},
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "security": null,
+    "customfield_10007": null,
+    "customfield_10008": null,
+    "attachment": [],
+    "customfield_10009": null,
+    "aggregatetimeestimate": null,
+    "summary": "Homepage V1",
+    "creator": {
+      "self": "https://sample.atlassian.net/rest/api/3/user?accountId=6233087e66b6de0068881299",
+      "accountId": "6233087e66b6de0068881299",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6233087e66b6de0068881299/e28ac4af-ac84-42c1-b223-b78bdabc3c10/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6233087e66b6de0068881299/e28ac4af-ac84-42c1-b223-b78bdabc3c10/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6233087e66b6de0068881299/e28ac4af-ac84-42c1-b223-b78bdabc3c10/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6233087e66b6de0068881299/e28ac4af-ac84-42c1-b223-b78bdabc3c10/32"
+      },
+      "displayName": "Dudi Elhadad",
+      "active": true,
+      "timeZone": "Asia/Jerusalem",
+      "accountType": "atlassian"
+    },
+    "subtasks": [
+      {
+        "id": "13988",
+        "key": "SAMPLE-3894",
+        "self": "https://sample.atlassian.net/rest/api/3/issue/13988",
+        "fields": {
+          "summary": "Homepage skeleton - 0.5",
+          "status": {
+            "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+            "description": "",
+            "iconUrl": "https://sample.atlassian.net/",
+            "name": "Done",
+            "id": "10001",
+            "statusCategory": {
+              "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+            "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "No Priority",
+            "id": "10000"
+          },
+          "issuetype": {
+            "self": "https://sample.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+          }
+        }
+      },
+      {
+        "id": "13989",
+        "key": "SAMPLE-3895",
+        "self": "https://sample.atlassian.net/rest/api/3/issue/13989",
+        "fields": {
+          "summary": "Entities widget card - 2",
+          "status": {
+            "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+            "description": "",
+            "iconUrl": "https://sample.atlassian.net/",
+            "name": "Done",
+            "id": "10001",
+            "statusCategory": {
+              "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+            "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "No Priority",
+            "id": "10000"
+          },
+          "issuetype": {
+            "self": "https://sample.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+          }
+        }
+      },
+      {
+        "id": "13990",
+        "key": "SAMPLE-3896",
+        "self": "https://sample.atlassian.net/rest/api/3/issue/13990",
+        "fields": {
+          "summary": "Recently viewed widget card - 1.5",
+          "status": {
+            "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+            "description": "",
+            "iconUrl": "https://sample.atlassian.net/",
+            "name": "Done",
+            "id": "10001",
+            "statusCategory": {
+              "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+            "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "No Priority",
+            "id": "10000"
+          },
+          "issuetype": {
+            "self": "https://sample.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+          }
+        }
+      },
+      {
+        "id": "13991",
+        "key": "SAMPLE-3897",
+        "self": "https://sample.atlassian.net/rest/api/3/issue/13991",
+        "fields": {
+          "summary": "Recently used widget card 1.5",
+          "status": {
+            "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+            "description": "",
+            "iconUrl": "https://sample.atlassian.net/",
+            "name": "Done",
+            "id": "10001",
+            "statusCategory": {
+              "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+            "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "No Priority",
+            "id": "10000"
+          },
+          "issuetype": {
+            "self": "https://sample.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+          }
+        }
+      },
+      {
+        "id": "13992",
+        "key": "SAMPLE-3898",
+        "self": "https://sample.atlassian.net/rest/api/3/issue/13992",
+        "fields": {
+          "summary": "README card 1",
+          "status": {
+            "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+            "description": "",
+            "iconUrl": "https://sample.atlassian.net/",
+            "name": "Done",
+            "id": "10001",
+            "statusCategory": {
+              "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+            "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "No Priority",
+            "id": "10000"
+          },
+          "issuetype": {
+            "self": "https://sample.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+          }
+        }
+      },
+      {
+        "id": "13993",
+        "key": "SAMPLE-3899",
+        "self": "https://sample.atlassian.net/rest/api/3/issue/13993",
+        "fields": {
+          "summary": "README editor - 1",
+          "status": {
+            "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+            "description": "",
+            "iconUrl": "https://sample.atlassian.net/",
+            "name": "Done",
+            "id": "10001",
+            "statusCategory": {
+              "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+            "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "No Priority",
+            "id": "10000"
+          },
+          "issuetype": {
+            "self": "https://sample.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+          }
+        }
+      },
+      {
+        "id": "13994",
+        "key": "SAMPLE-3900",
+        "self": "https://sample.atlassian.net/rest/api/3/issue/13994",
+        "fields": {
+          "summary": "READM editor backend API (Possible to have all the page data update) - 2.5",
+          "status": {
+            "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+            "description": "",
+            "iconUrl": "https://sample.atlassian.net/",
+            "name": "Done",
+            "id": "10001",
+            "statusCategory": {
+              "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+            "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "No Priority",
+            "id": "10000"
+          },
+          "issuetype": {
+            "self": "https://sample.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+          }
+        }
+      },
+      {
+        "id": "13996",
+        "key": "SAMPLE-3902",
+        "self": "https://sample.atlassian.net/rest/api/3/issue/13996",
+        "fields": {
+          "summary": "Component tests 1.5",
+          "status": {
+            "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+            "description": "",
+            "iconUrl": "https://sample.atlassian.net/",
+            "name": "Done",
+            "id": "10001",
+            "statusCategory": {
+              "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+            "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "No Priority",
+            "id": "10000"
+          },
+          "issuetype": {
+            "self": "https://sample.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+          }
+        }
+      },
+      {
+        "id": "13998",
+        "key": "SAMPLE-3904",
+        "self": "https://sample.atlassian.net/rest/api/3/issue/13998",
+        "fields": {
+          "summary": "Backend tests 1.5",
+          "status": {
+            "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+            "description": "",
+            "iconUrl": "https://sample.atlassian.net/",
+            "name": "Done",
+            "id": "10001",
+            "statusCategory": {
+              "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+            "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "No Priority",
+            "id": "10000"
+          },
+          "issuetype": {
+            "self": "https://sample.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+          }
+        }
+      },
+      {
+        "id": "13995",
+        "key": "SAMPLE-3901",
+        "self": "https://sample.atlassian.net/rest/api/3/issue/13995",
+        "fields": {
+          "summary": "Segment events 0.5",
+          "status": {
+            "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+            "description": "",
+            "iconUrl": "https://sample.atlassian.net/",
+            "name": "Done",
+            "id": "10001",
+            "statusCategory": {
+              "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+            "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "No Priority",
+            "id": "10000"
+          },
+          "issuetype": {
+            "self": "https://sample.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+          }
+        }
+      },
+      {
+        "id": "13999",
+        "key": "SAMPLE-3905",
+        "self": "https://sample.atlassian.net/rest/api/3/issue/13999",
+        "fields": {
+          "summary": "Remove default page logic flow - 0.5",
+          "status": {
+            "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+            "description": "",
+            "iconUrl": "https://sample.atlassian.net/",
+            "name": "Done",
+            "id": "10001",
+            "statusCategory": {
+              "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+            "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "No Priority",
+            "id": "10000"
+          },
+          "issuetype": {
+            "self": "https://sample.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+          }
+        }
+      },
+      {
+        "id": "14000",
+        "key": "SAMPLE-3906",
+        "self": "https://sample.atlassian.net/rest/api/3/issue/14000",
+        "fields": {
+          "summary": "Permissions/Role handle 0.5",
+          "status": {
+            "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+            "description": "",
+            "iconUrl": "https://sample.atlassian.net/",
+            "name": "Done",
+            "id": "10001",
+            "statusCategory": {
+              "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+            "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "No Priority",
+            "id": "10000"
+          },
+          "issuetype": {
+            "self": "https://sample.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+          }
+        }
+      },
+      {
+        "id": "14001",
+        "key": "SAMPLE-3907",
+        "self": "https://sample.atlassian.net/rest/api/3/issue/14001",
+        "fields": {
+          "summary": "Product/Designer approval - 2",
+          "status": {
+            "self": "https://sample.atlassian.net/rest/api/3/status/10001",
+            "description": "",
+            "iconUrl": "https://sample.atlassian.net/",
+            "name": "Done",
+            "id": "10001",
+            "statusCategory": {
+              "self": "https://sample.atlassian.net/rest/api/3/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://sample.atlassian.net/rest/api/3/priority/10000",
+            "iconUrl": "https://sample.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "No Priority",
+            "id": "10000"
+          },
+          "issuetype": {
+            "self": "https://sample.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://sample.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316,
+            "hierarchyLevel": -1
+          }
+        }
+      }
+    ],
+    "reporter": {
+      "self": "https://sample.atlassian.net/rest/api/3/user?accountId=6233087e66b6de0068881299",
+      "accountId": "6233087e66b6de0068881299",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6233087e66b6de0068881299/e28ac4af-ac84-42c1-b223-b78bdabc3c10/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6233087e66b6de0068881299/e28ac4af-ac84-42c1-b223-b78bdabc3c10/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6233087e66b6de0068881299/e28ac4af-ac84-42c1-b223-b78bdabc3c10/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6233087e66b6de0068881299/e28ac4af-ac84-42c1-b223-b78bdabc3c10/32"
+      },
+      "displayName": "Dudi Elhadad",
+      "active": true,
+      "timeZone": "Asia/Jerusalem",
+      "accountType": "atlassian"
+    },
+    "customfield_10000": "{}",
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10001": null,
+    "customfield_10002": null,
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://sample.atlassian.net/rest/api/3/issue/SAMPLE-3490/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "comment": {
+      "comments": [],
+      "self": "https://sample.atlassian.net/rest/api/3/issue/13497/comment",
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    }
+  }
+}

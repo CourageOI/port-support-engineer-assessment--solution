@@ -1,0 +1,94 @@
+{
+  "apiVersion": "apps/v1",
+  "kind": "Deployment",
+  "metadata": {
+    "annotations": {
+      "deployment.kubernetes.io/revision": "1",
+      "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"commitHash\":\"b2633eae0655322b22f1637eb309ba4052ceeb74\",\"environment\":\"production-gcp-1\",\"service\":\"authorization\"},\"name\":\"authorization-service-production-gcp-1\",\"namespace\":\"port-sales-demo\"},\"spec\":{\"replicas\":1,\"revisionHistoryLimit\":3,\"selector\":{\"matchLabels\":{\"app\":\"authorization-service-production-gcp-1\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"authorization-service-production-gcp-1\"}},\"spec\":{\"containers\":[{\"image\":\"public.ecr.aws/y8q1v8m0/fastapi-sample:latest\",\"imagePullPolicy\":\"Always\",\"name\":\"authorization-service\",\"ports\":[{\"containerPort\":80}]}]}}}}\n"
+    },
+    "creationTimestamp": "2023-07-27T14:41:15Z",
+    "generation": 2,
+    "labels": {
+      "commitHash": "b2633eae0655322b22f1637eb309ba4052ceeb74",
+      "environment": "production-gcp-1",
+      "service": "authorization"
+    },
+    "name": "authorization-service-production-gcp-1",
+    "namespace": "port-sales-demo",
+    "resourceVersion": "3834920",
+    "uid": "bba9bc85-62fe-4eb3-b804-37e2e8d5d48c"
+  },
+  "spec": {
+    "progressDeadlineSeconds": 600,
+    "replicas": 1,
+    "revisionHistoryLimit": 3,
+    "selector": {
+      "matchLabels": {
+        "app": "authorization-service-production-gcp-1"
+      }
+    },
+    "strategy": {
+      "rollingUpdate": {
+        "maxSurge": "25%",
+        "maxUnavailable": "25%"
+      },
+      "type": "RollingUpdate"
+    },
+    "template": {
+      "metadata": {
+        "creationTimestamp": null,
+        "labels": {
+          "app": "authorization-service-production-gcp-1"
+        }
+      },
+      "spec": {
+        "containers": [
+          {
+            "image": "public.ecr.aws/y8q1v8m0/fastapi-sample:latest",
+            "imagePullPolicy": "Always",
+            "name": "authorization-service",
+            "ports": [
+              {
+                "containerPort": 80,
+                "protocol": "TCP"
+              }
+            ],
+            "resources": {},
+            "terminationMessagePath": "/dev/termination-log",
+            "terminationMessagePolicy": "File"
+          }
+        ],
+        "dnsPolicy": "ClusterFirst",
+        "restartPolicy": "Always",
+        "schedulerName": "default-scheduler",
+        "securityContext": {},
+        "terminationGracePeriodSeconds": 30
+      }
+    }
+  },
+  "status": {
+    "availableReplicas": 1,
+    "conditions": [
+      {
+        "lastTransitionTime": "2023-07-27T14:41:16Z",
+        "lastUpdateTime": "2023-07-27T14:41:16Z",
+        "message": "Deployment has minimum availability.",
+        "reason": "MinimumReplicasAvailable",
+        "status": "True",
+        "type": "Available"
+      },
+      {
+        "lastTransitionTime": "2023-07-27T14:41:15Z",
+        "lastUpdateTime": "2023-07-27T14:41:16Z",
+        "message": "ReplicaSet \"authorization-service-production-gcp-1-659fc44545\" has successfully progressed.",
+        "reason": "NewReplicaSetAvailable",
+        "status": "True",
+        "type": "Progressing"
+      }
+    ],
+    "observedGeneration": 2,
+    "readyReplicas": 1,
+    "replicas": 1,
+    "updatedReplicas": 1
+  }
+}
