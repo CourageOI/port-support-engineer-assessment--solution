@@ -1,67 +1,35 @@
-# Port Support Engineer Assignment Solutions
+# DevOps Integration Exercises Guide
 
-## Exercise #1: JQ Patterns for Data Extraction
-This exercise focuses on using JQ patterns to extract specific information from API responses.
+## Exercise #1: JQ Patterns for Quick Data Extraction
 
-### Kubernetes Deployment Object
+### Kubernetes Deployment Patterns
+Extract the specified information from the provided Kubernetes deployment objects with these JQ patterns:
 
-Given a Kubernetes deployment object snippet, here are the JQ patterns to extract the required information:
+```
+.spec.replicas                                              # Get replica count
+.spec.strategy.type                                         # Get deployment strategy
+.metadata.labels.service + "-" + .metadata.labels.environment   # Combine service and environment labels
+```
 
-1. **Current replica count:**
-    ```
-    .spec.replicas
-    ```
-Explanation: This pattern directly accesses the `replicas` field within the `spec` object of the deployment, which indicates the configured number of replicas.
+### Implementation Example
+Use the bash command as shown below to get each information from the Kubernetes deployment stored in `k8s-deploy.json`
+e.g
+```bash
+jq '.spec.replicas' k8s-deploy.json
+```
 
-2. **Deployment strategy:**
-    ```
-    .spec.strategy.type
-    ```
-Explanation: This pattern navigates to the `strategy` object and extracts the `type` field, which defines the deployment strategy (e.g., "RollingUpdate" or "Recreate").
+### Jira Subtask Extraction
+Get all subtask IDs from the provided Jira issue? Use this pattern:
 
-3. **Service label concatenated with environment label with a hyphen in the middle:**
-    ```
-    .metadata.labels.service + "-" + .metadata.labels.environment
-    ```
-Explanation: This pattern first accesses the `service` label under `.metadata.labels`, concatenates a hyphen, and then adds the `environment` label from the same path.
-
-#### Example Implementation
-
-**Using a JQ Script File:**
-1. Save your K8s deployment JSON to `k8s-deploy.json`
-2. Create a file `k8s-deploy-result.jq` with:
-    ```json
-    {
-      "replica_count": .spec.replicas,
-      "deployment_strategy": .spec.strategy.type,
-      "service_environment": (.metadata.labels.service + "-" + .metadata.labels.environment)
-    }
-    ```
-3. Run: `jq -f k8s-deploy-result.jq k8s-deploy.json`
-
-**Direct Command Line:**
-You can also run it directly on the command line to get specific results:
-    ```bash
-    # Get replica count
-    jq '.spec.replicas' k8s-deploy.json
-    
-    # Get deployment strategy
-    jq '.spec.strategy.type' k8s-deploy.json
-    
-    # Get service-environment
-    jq '.metadata.labels.service + "-" + .metadata.labels.environment' k8s-deploy.json
-    ```
-
-I created a jq file 
-
-### Jira API Issue Response
-
-To extract all issue IDs for subtasks in the issue-response.json file and use it to form an array :
-    ```
-    [.fields.subtasks[].key]
-    ```
-Explanation: This pattern accesses the `subtasks` array within the `fields` object, iterates through each subtask (represented by `[]`), and extracts the `key` field from each, which contains the issue ID and put converts the result into an array. 
-Run: `jq '[.fields.subtasks[].key]' issue-response.json`
+```
+[.fields.subtasks[].key]
+```
+Run:
+```bash
+jq '[.fields.subtasks[].key]' issue-response.json
+```
+This creates an array of all subtask IDs from the provided Jira Issue response.
+---
 
 ## Exercise #2: Jira and GitHub Integration
 
@@ -74,31 +42,31 @@ This exercise demonstrates integrating Jira with GitHub via Port's platform to c
    - Completed the initial setup wizard
 
 2. **Install Port's GitHub app**
-   - Navigated to Data Source tab in the Builds page in Port
-   - Clicked on Add Data Source
-   - Selected GitHub and clicked on install Github apps
-   - Authorized the app on my GitHub account
-   - Selected repositories to include in Port
+   - Navigate to the Data Source tab in the Builds page in Port
+   - Click on Add Data Source
+   - Select GitHub and click on install Github apps
+   - Authorize the app on my GitHub account
+   - Select repositories to include in Port
 
 3. **Create a Jira account**
-   - Created a free Jira Software Cloud account https://ioctec.atlassian.net/
-   - Created a new project using:
+   - Create a free Jira Software Cloud account https://ioctec.atlassian.net/
+   - Create a new project using:
      - Software development category
      - Scrum template
-     - Company managed project type to access components feature
+     - Company managed project type to access the components feature
 
 4. **Create Jira components matching GitHub repositories**
-   - Created components named exactly the same as my GitHub repositories
-   - Created at least two components for two repositories:
+   - Create components named the same as the GitHub repositories
+   - Create at least two components for two repositories:
      - `tpss-api`
      - `trivia-api`
 
 5. **Install Port's Ocean integration for Jira**
    - From the [Ocean’s Jira integration](https://docs.port.io/build-your-software-catalog/sync-data-to-catalog/project-management/jira/) link
-   - Selectecd Real-time (self-hosted) setup option
-   - Also setup a Kind cluster and deployed the ocean Jira integration via helm
-   - Used Kubernetes deployment approach via Helm chart
-   - Created a user token from Jira
+   - Select Real-time (self-hosted) setup option
+   - Also, set up a Kind cluster and deploy the Ocean Jira integration via helm
+   - Use Kubernetes deployment approach via Helm chart
+   - Create a user token from Jira
    - installation script:
          ```bash
          helm repo add --force-update port-labs https://port-labs.github.io/helm-charts
@@ -116,14 +84,14 @@ This exercise demonstrates integrating Jira with GitHub via Port's platform to c
             --set integration.secrets.atlassianUserEmail="Enter value here"  \
             --set integration.secrets.atlassianUserToken="Enter value here" 
          ```
-  - After successful deployment, I was able to see the various Jira integrations on Port UI
+  - After successful deployment, you should be able to see the various Jira integrations on the Port UI
 
 6. **Update Port's data model**
-   - Added relation from "Jira Issue" to "Repository"
-   - Configured the relation in the Builder:
-     - Went to the "Builder" page
-     - Selected "Jira Issue" blueprint
-     - Added a new relation property:
+   - Add relation from "Jira Issue" to "Repository"
+   - Configure the relation in the Builder:
+     - Go to the "Builder" page
+     - Select "Jira Issue" blueprint
+     - Add a new relation property:
        - Type: `array`
        - Name: `related_repositories`
        - Title: `Related Repositories`
@@ -131,8 +99,8 @@ This exercise demonstrates integrating Jira with GitHub via Port's platform to c
        - Target: `Repository`
 
 7. **Update Jira integration mapping**
-   - Updated the mapping configuration to relate Jira issues to GitHub repositories based on components
-   - Created/modified the integration mapping file:
+   - Update the mapping configuration to relate Jira issues to GitHub repositories based on components
+   - Create/modify the integration mapping file:
 
     ```yaml
     - kind: issue
@@ -192,7 +160,7 @@ This exercise involves creating a scorecard to track the number of open PRs for 
 1. **Update Port's data model**
    - There is already a relation from "Pull Requests" to "Repository"
 2. **Create a property to count open PRs**
-   - Added a new property of type "Aggregation" to the Repository blueprint:
+   - Add a new property of type "Aggregation" to the Repository blueprint:
      - Name: `pull_request_count`
      - Title: `Pull Request Count`
      - Type: `Aggregation`
@@ -212,10 +180,10 @@ This exercise involves creating a scorecard to track the number of open PRs for 
             ]
           }
          ```
- The above using the query agregates all Pull requests whose status is open as indicated in the query rules
+ The above uses the query to aggregate all Pull requests whose status is open, as indicated in the query rules
 
 3. **Create a scorecard on the Repository blueprint**
-   - Added a new scorecard to visualize the PR status:
+   - Add a new scorecard to visualize the PR status:
      - Name: `open-prs-status`
      - Title: `Open PRs Status`
      - Description: `Tracks repository health based on number of open PRs`
@@ -225,10 +193,10 @@ This exercise involves creating a scorecard to track the number of open PRs for 
        - Bronze: `pull_request_count >= 10 && pull_request_count < 15`
 
 4. **Configure the scorecard in Port UI**
-   - Navigated to the Builder page in Port
-   - Selected the Repository blueprint
-   - Added a new scorecard
-   - Configured the rules with the following JSON:
+   - Navigate to the Builder page in Port
+   - Select the Repository blueprint
+   - Add a new scorecard
+   - Configure the rules with the following JSON:
 
     ```json
     {
